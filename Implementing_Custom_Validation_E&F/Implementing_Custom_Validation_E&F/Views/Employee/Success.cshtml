@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Success";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Employee Created Successfully!</h4>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <p class="mb-2">
+                <strong>Name: </strong>
+                <span class="text-muted">@Model.Name</span>
+            </p>
+            <p class="mb-2">
+                <strong>Age: </strong>
+                <span class="text-muted">@Model.Age</span>
+            </p>
+            <p class="mb-2">
+                <strong>Department: </strong>
+                <span class="text-muted">@Model.Department</span>
+            </p>
+            <p class="mb-0">
+                <strong>Skills: </strong>
+                <span class="text-muted">@Model.Skills</span>
+            </p>
+        </div>
+    </div>
+</div>
